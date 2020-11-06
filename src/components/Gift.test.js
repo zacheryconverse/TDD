@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Gift from './Gift';
+import '../setupTest.js';
 
 describe('Gift', () => {
   const mockRemove = jest.fn();
