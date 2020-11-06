@@ -94,7 +94,7 @@
     "jest-cli": "^20.0.4"
   },
   "jest": {
-   "setupTestFrameworkScriptFile": "<rootDir>src/setupTest.js",
+   "setupFilesAfterEnv": "<rootDir>src/setupTest.js",
     "roots": [
       "<rootDir>/src"
     ],
